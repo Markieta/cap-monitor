@@ -1,0 +1,42 @@
+#       Hostname   Mountpoint         Threshold (GB)
+
+# Bahamas
+monitor bahamas   /                  5
+monitor bahamas   /home              5
+monitor bahamas   /data              5
+
+# England
+#*monitor england    /                  5
+#*monitor england    /home              5
+
+# Iraq
+monitor iraq       /                  5
+monitor iraq       /home              5
+
+# Ireland
+monitor ireland    /                  5
+monitor ireland    /home              5
+
+# Japan
+monitor japan      /                  5
+monitor japan      /home              10
+monitor japan      /var               10
+monitor japan      /mnt/koji          10
+
+# NewZealand
+monitor newzealand /                  5
+monitor newzealand /home              5
+
+# Romania
+monitor romania    /                  5
+
+# Rome
+monitor rome       /                  5
+monitor rome       /home              5
+
+# Scotland
+#*monitor scotland   /                  5
+#*monitor scotland   /home              20
+#*monitor scotland   /archive           40
+#*monitor scotland   /mnt/arm-nightlies 40
+#*monitor scotland   /var               20
