@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Storage Capacity Monitor
 # Author: Christopher Markieta
